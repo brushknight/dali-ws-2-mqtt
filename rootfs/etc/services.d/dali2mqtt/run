@@ -6,4 +6,10 @@
 
 # Add your code here
 
+export MQTT_HOST=$(bashio::config 'mqtt_host')
+export MQTT_PORT=$(bashio::config 'mqtt_port')
+export MQTT_USER=$(bashio::config 'mqtt_user')
+export MQTT_PASS=$(bashio::config 'mqtt_pass')
+export DALI_2_IOT_HOST=$(bashio::config 'dali_2_iot_host')
+
 exec /usr/bin/dali2mqtt
