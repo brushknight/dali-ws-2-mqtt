@@ -9,3 +9,15 @@ arch:
   - armhf
   - armv7
   - i386
+options:
+  mqtt_ip: ""
+  mqtt_host: ""
+  mqtt_user: ""
+  mqtt_pass: ""
+  dali_2_iot_host: ""
+schema:
+  mqtt_ip: str
+  mqtt_host: str
+  mqtt_user: str
+  mqtt_pass: str
+  dali_2_iot_host: str
