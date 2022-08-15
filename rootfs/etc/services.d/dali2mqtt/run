@@ -12,4 +12,4 @@ MQTT_USER=$(bashio::config 'mqtt_user')
 MQTT_PASS=$(bashio::config 'mqtt_pass')
 DALI_2_IOT_HOST=$(bashio::config 'dali_2_iot_host')
 
-python3 /usr/bin/main.py
+exec /usr/bin/dali2mqtt

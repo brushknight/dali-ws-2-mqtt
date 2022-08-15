@@ -1,7 +1,7 @@
-name: "Dali2IoT 2 MQTT gateway"
-description: "My first real add-on!"
-version: "1.0.9"
-slug: "dali2iot2mqtt"
+name: "Dali 2 MQTT gateway"
+description: "Dali 2 MQTT gateway for Lunatone dali2iot"
+version: "1.0.10"
+slug: "dali2mqtt"
 init: false
 arch:
   - aarch64
