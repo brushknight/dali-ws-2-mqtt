@@ -1,6 +1,6 @@
 name: "Dali 2 MQTT gateway"
 description: "Dali 2 MQTT gateway for Lunatone dali2iot"
-version: "1.0.11"
+version: "1.0.12"
 slug: "dali2mqtt"
 init: false
 arch:
