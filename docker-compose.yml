@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  dali2mqtt:
+    build: .
+    restart: unless-stopped
