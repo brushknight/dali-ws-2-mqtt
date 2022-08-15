@@ -1,6 +1,6 @@
 name: "Dali2IoT 2 MQTT gateway"
 description: "My first real add-on!"
-version: "1.0.3"
+version: "1.0.4"
 slug: "dali2iot2mqtt"
 init: false
 arch:
