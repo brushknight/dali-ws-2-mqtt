@@ -9,8 +9,8 @@ RUN \
 WORKDIR /data
 
 # Copy data for add-on
-COPY requirements.txt /
-COPY main.py /
+COPY requirements.txt /data/requirements.txt
+COPY main.py /data/main.py
 COPY run.sh /
 RUN chmod a+x /run.sh
 
