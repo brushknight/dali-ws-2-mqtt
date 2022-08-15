@@ -5,7 +5,7 @@ import websockets
 import paho.mqtt.client as paho
 
 broker = os.environ['MQTT_HOST']
-port = os.environ['MQTT_PORT']
+port = int(os.environ['MQTT_PORT'])
 username = os.environ['MQTT_USER']
 password = os.environ['MQTT_PASS']
 dali2iotHost = os.environ['DALI_2_IOT_HOST']  #
