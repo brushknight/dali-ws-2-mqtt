@@ -1,12 +1,17 @@
-# syntax=docker/dockerfile:1
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
-FROM python:3.8-slim-buster
+# Install requirements for add-on
+RUN \
+  apk add --no-cache \
+    python3
 
-WORKDIR /app
+WORKDIR /data
 
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+# Copy data for add-on
+COPY requirements.txt /
+COPY main.py /
+COPY run.sh /
+RUN chmod a+x /run.sh
 
-COPY main.py .
-
-CMD [ "python3",  "main.py"]
+CMD [ "/run.sh" ]

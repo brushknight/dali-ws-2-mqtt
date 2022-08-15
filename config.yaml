@@ -1,6 +1,6 @@
 name: "Dali2IoT 2 MQTT gateway"
 description: "My first real add-on!"
-version: "1.0.1"
+version: "1.0.3"
 slug: "dali2iot2mqtt"
 init: false
 arch:
@@ -10,14 +10,14 @@ arch:
   - armv7
   - i386
 options:
-  mqtt_ip: ""
   mqtt_host: ""
+  mqtt_port: ""
   mqtt_user: ""
   mqtt_pass: ""
   dali_2_iot_host: ""
 schema:
-  mqtt_ip: str
   mqtt_host: str
+  mqtt_port: str
   mqtt_user: str
   mqtt_pass: str
   dali_2_iot_host: str

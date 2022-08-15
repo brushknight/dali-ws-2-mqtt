@@ -4,7 +4,7 @@ import os
 import websockets
 import paho.mqtt.client as paho
 
-broker = os.environ['MQTT_IP']
+broker = os.environ['MQTT_HOST']
 port = os.environ['MQTT_PORT']
 username = os.environ['MQTT_USER']
 password = os.environ['MQTT_PASS']
